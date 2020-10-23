@@ -10,11 +10,8 @@ body {
     text-align: center;
 }
 
-div{
-    
-}
-form{
-    display: block;
+ 
+form{ 
     padding: 5%;
     margin: 0 20% 0 20%;
 }
@@ -25,7 +22,6 @@ form{
 }
 
 label{
-    display: flex;
     width: 100%;
     margin-top: 10px;
 }
@@ -102,18 +98,21 @@ textarea{
 
 #dropdown-label{
     font-size: 25px;
-    font-weight:  bold; 
+    font-weight:  bold;  
 }
 
 #tips-area ,[type="checkbox"]{
-float: left;
+  float: left;
  display: inline-block;
-  display: flex;  
 }
 
 #tips-area ul li{
-    list-style: none; 
-   
+    list-style: none;
+    margin: 5px 0 5px 0 ;
+
+}
+#tips-area ul{
+        padding-left: 0px;
 }
 
 #tips-label{
@@ -123,12 +122,17 @@ float: left;
 #suggestions-label{
     font-size: 25px;
     font-weight: bold; 
+
 }
 #gender-label{
     font-size: 25px;
     font-weight:  bold; 
 }
-
+.form-control{
+     width: 100%;
+     display: block;
+     margin-bottom: 5px;
+}
 
 @media(max-width : 800px){
     form{
@@ -138,3 +142,6 @@ float: left;
     }
 
 }
+
+
+
